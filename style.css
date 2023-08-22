@@ -1,0 +1,134 @@
+body {
+  padding: 0rem !important;
+  margin: 0rem !important;
+  overflow-x: hidden;
+  background-image: linear-gradient(black, whitesmoke, black);
+}
+.bg-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  height: 100vh;
+  width: 100vw;
+  object-fit: cover;
+  filter: brightness(0.6);
+}
+.min-h-screen {
+  min-height: 100vh;
+}
+.max-h-screen {
+  max-height: 100vh;
+}
+.text {
+  min-height: auto;
+  min-width: auto;
+}
+.position {
+  width: 70rem;
+  font-size: 7rem;
+  height: 10rem;
+  text-align: justify;
+}
+
+.nav-link {
+  position: relative;
+}
+.nav-link::after {
+  content: "";
+  opacity: 0;
+  transition: all 0.4s;
+  height: 2px;
+  width: 100%;
+  background-color: aqua;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.nav-link:hover::after {
+  opacity: 1;
+}
+
+.heading {
+  color: rgb(27, 35, 42);
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5vw;
+  font-family: "Dancing Script", cursive;
+}
+
+.hr {
+  color: white;
+  width: 100vw;
+}
+/* Gallery Css */
+
+.img-gallery {
+  color: #868181;
+  width: 80%;
+  margin: 100px auto 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+}
+
+.img-gallery img {
+  width: 100%;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.8s;
+}
+
+.img-gallery img:hover {
+  transform: scale(1.5);
+  border-radius: 20px;
+}
+
+/* Product Image CSS  */
+
+.round-circle {
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+}
+
+/* Pricing Image Css  */
+
+.p-img {
+  border-radius: 20px;
+  height: 42vh;
+  width: 25vw;
+}
+
+/* Footer Css */
+
+#footer {
+  color: whitesmoke;
+  margin-top: 2rem;
+}
+
+footer-social {
+  font-size: larger;
+  padding: 2px;
+}
+
+.btn-block {
+  display: block;
+  width: 100%;
+}
+
+#rights a {
+  text-decoration: none !important;
+  color: inherit;
+}
+
+.fix-top {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
