@@ -1,6 +1,6 @@
 body {
-  padding: 0rem !important;
-  margin: 0rem !important;
+  padding: 0rem;
+  margin: 0rem;
   overflow-x: hidden;
   background-image: linear-gradient(black, whitesmoke, black);
 }
@@ -109,12 +109,9 @@ body {
   color: whitesmoke;
   margin-top: 2rem;
 }
-
-footer-social {
-  font-size: larger;
-  padding: 2px;
+.footer box-icon {
+  color: whitesmoke;
 }
-
 .btn-block {
   display: block;
   width: 100%;
