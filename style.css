@@ -14,6 +14,17 @@ body {
   object-fit: cover;
   filter: brightness(0.6);
 }
+.quote{
+  position: absolute;
+  top: 10%;
+  transform: translate(50%,-50%);
+  color: antiquewhite;
+  font-size: 65px;
+  width: 500px;
+  p{
+    word-wrap: break-word;
+  }
+}
 .min-h-screen {
   min-height: 100vh;
 }
