@@ -2,7 +2,8 @@ body {
   padding: 0rem;
   margin: 0rem;
   overflow-x: hidden;
-  background-image: linear-gradient(black, whitesmoke, black);
+  background-color: #2d3250;
+  color: #eeaa74;
 }
 .bg-img {
   position: absolute;
@@ -14,14 +15,14 @@ body {
   object-fit: cover;
   filter: brightness(0.6);
 }
-.quote{
+.quote {
   position: absolute;
   top: 10%;
-  transform: translate(50%,-50%);
+  transform: translate(50%, -50%);
   color: antiquewhite;
   font-size: 65px;
   width: 500px;
-  p{
+  p {
     word-wrap: break-word;
   }
 }
